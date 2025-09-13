@@ -1,0 +1,66 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* FAQ section */
+.faq-answer {
+  display: none;
+  margin: 5px 0;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#formMessage {
+  font-weight: bold;
+  margin-top: 10px;
+}
